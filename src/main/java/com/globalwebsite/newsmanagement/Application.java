@@ -17,7 +17,6 @@ public class Application {
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
             Runtime.getRuntime().exec("curl localhost:8080");
-
         };
     }
 }
